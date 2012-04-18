@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+This is your new Play 2.0 application
+=====================================
+
+This file will be packaged with your application, when using `play dist`.
+=======
+Testing a prototype with Scala Play for positive suggest interface.
+>>>>>>> 7c85eb55f75cc63371987a737c2eb5eb6ecbf19e
