@@ -4,7 +4,7 @@ import PlayProject._
 
 object ApplicationBuild extends Build {
 
-    val appName         = "Positive Suggest Prototype"
+    val appName         = "PositiveSuggest"
     val appVersion      = "1.0-SNAPSHOT"
 
     val appDependencies = Seq(
