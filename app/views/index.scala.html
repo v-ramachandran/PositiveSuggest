@@ -1,7 +1,39 @@
 @(message: String)
 
-@main("Welcome to Play 2.0") {
+<link rel="stylesheet" href="/assets/stylesheets/front.css"></link>
+<link rel="stylesheet" href="/assets/stylesheets/main.css"></link>
+
+<body id="back">
+  <div id="main-wrapper">
+    <div id="title-frame"> 
+      <span id="title">Boston Restaurants with Kids Menu</span>
+    </div>
     
-    @play20.welcome(message)
+    <div class="desc-frame" id="directions">
+
+      <dd>
+      <span class="tab"><b> Directions:</b> </span>
+      <span>Enter the name and necessary contact information of any Boston area restaurant which has a kids menu.</span> 
+      </dd>
+    </div>
     
-}
+    <div class="desc-frame" id="hint">
+      <dd>
+      <span class="tab"><b> Hint:</b> </span>
+      <span> If possible, enter a Restaurant whose name begins with: </span>
+      </dd>
+    </div>
+    
+    <div id="submission-frame">
+      
+
+      <form>
+	<input class="inputField" type="text" name="name" value="Type Restaurant Name Here..." onFocus="javascript:this.value=''" />      
+	<input id="submitField" type="submit" value="Submit" /> 
+      </form>    
+      
+    </div>
+    
+
+  </div>
+</body>
